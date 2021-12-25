@@ -1,0 +1,18 @@
+Filename: style.css
+Code:
+.page-header,
+.page-footer {
+  padding: 10px;
+  background-color: #eeeeee;
+}
+
+.page-footer {
+  margin-top: 20px;
+}
+
+.price-list td {
+  border: 1px solid #333333;
+}
+
+
+

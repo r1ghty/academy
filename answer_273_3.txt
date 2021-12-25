@@ -1,0 +1,11 @@
+Filename: script.js
+Code:
+var popup = document.querySelector('.modal');
+var openPopupButton = document.querySelector('.button-open');
+
+openPopupButton.addEventListener('click', function () {
+  console.log('Клик по кнопке');
+});
+
+
+

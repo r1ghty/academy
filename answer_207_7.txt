@@ -1,0 +1,6 @@
+Filename: script.js
+Code:
+let timeInHours
+console.log(timeInHours)
+
+

@@ -1,0 +1,15 @@
+Filename: style.css
+Code:
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: #cccccc;
+}
+
+a:active {
+  color: green;
+}
+
+

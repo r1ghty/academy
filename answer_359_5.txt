@@ -1,0 +1,10 @@
+Filename: style.css
+Code:
+.page-header {
+  display: grid;
+  /* Замените 100px 400px на 210px 200px */
+  grid-template-columns: 100px 400px;
+}
+
+
+

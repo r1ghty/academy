@@ -1,0 +1,7 @@
+Filename: script.js
+Code:
+let firstDay = 3;
+let secondDay = 2.5;
+console.log(firstDay/24*100);
+
+

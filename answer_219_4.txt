@@ -1,0 +1,34 @@
+Filename: script.js
+Code:
+var catalogData = [
+  {
+    isAvailable: true,
+    isSpecial: false
+  },
+  {
+    isAvailable: false,
+    isSpecial: false
+  },
+  {
+    isAvailable: true,
+    isSpecial: true
+  },
+  {
+    isAvailable: true,
+    isSpecial: false
+  },
+  {
+    isAvailable: false,
+    isSpecial: false
+  }
+];
+
+var updateCards = function (products) {
+  var elements = document.querySelectorAll('.product');
+  console.log(elements);
+};
+
+updateCards(catalogData);
+
+
+

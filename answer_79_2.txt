@@ -1,0 +1,23 @@
+Filename: style.css
+Code:
+body {
+  background: url("sky.jpg") no-repeat 0 0;
+  color: #ecf0f1;
+  font-family: "Arial", sans-serif;
+}
+
+h1 {
+  margin: 40px 40px 200px;
+  font-weight: normal;
+  font-size: 50px;
+  text-shadow:30px 30px 1px #111111;
+}
+
+span {
+  margin: 50px;
+  font-size: 80px;
+  text-shadow:30px 30px 1px #111111;
+}
+
+
+

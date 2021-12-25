@@ -1,0 +1,14 @@
+Filename: script.js
+Code:
+let totalPages = 6; // Всего страниц в документе
+let consumptionTotal = 0;
+let consumptionPerPage = 70;
+
+for (let page = 1; page <= totalPages; page++) {
+  keks.print(page);
+  consumptionTotal += consumptionPerPage;
+  console.log(consumptionTotal);
+}
+
+
+

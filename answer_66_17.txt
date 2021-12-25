@@ -1,0 +1,21 @@
+Filename: index.html
+Code:
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Перекрёстное наследование</title>
+    <link rel="stylesheet" href="setting.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="cats">
+      <div class="cat cat-keksik">Кексик</div>
+      <div class="cat cat-rudolf">Рудольф</div>
+      <div class="cat cat-snezhok">Снежок</div>
+      <div class="cat cat-adolf">Адольф</div>
+    </div>
+  </body>
+</html>
+
+
+

@@ -1,0 +1,8 @@
+Filename: up-button.js
+Code:
+window.onscroll = function () {
+  console.log(window.pageYOffset);
+};
+
+
+

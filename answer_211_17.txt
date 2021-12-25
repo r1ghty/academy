@@ -1,0 +1,22 @@
+Filename: script.js
+Code:
+let totalPages = 6; // Всего страниц в документе
+
+let consumptionTotal = 0; // Общий расход тонера
+let consumptionPerPage = 70; // Расход краски на одну страницу
+let economyMode = false;
+
+for (let page = 1; page <= totalPages; page++) {
+  keks.print(page);
+
+  // Добавляйте условие сюда
+  if (economyMode && page > 3) {
+    consumptionTotal += consumptionPerPage * 0.5;    
+  }
+  
+  consumptionTotal += consumptionPerPage;
+  console.log(consumptionTotal);
+}
+
+
+

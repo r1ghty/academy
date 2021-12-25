@@ -1,0 +1,24 @@
+Filename: style.css
+Code:
+.card {
+  margin-bottom: 20px;
+  line-height: 1.3;
+}
+
+.card-title {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 0;
+  flex-wrap: wrap;
+}
+
+.card-title span {
+
+}
+
+.card-title-main {
+  flex-grow: 1;
+}
+
+
+

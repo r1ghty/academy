@@ -1,0 +1,16 @@
+Filename: product.php
+Code:
+<?php
+require('components/header.php');
+
+$is_violet_tuesday = true;
+
+if ($is_violet_tuesday) {
+  require('components/product_violet.php');
+}
+
+require('components/product_info.php');
+require('components/footer.php');
+
+
+

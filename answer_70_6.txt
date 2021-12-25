@@ -1,0 +1,24 @@
+Filename: style.css
+Code:
+.messages {
+background-image: linear-gradient(to bottom, #71d5f4, #337cd2);
+/* градиент от #71d5f4 к #337cd2 */
+}
+
+.weather {
+background-image: linear-gradient(to top right, #ff792e, #ffe662);
+/* градиент от #ff792e к #ffe662 */
+}
+
+.camera {
+background-image: linear-gradient(to right, #9a66ba, #f98edb);
+/* градиент от #9a66ba к #f98edb */
+}
+
+.music {
+background-image: linear-gradient(135deg, #6ffc75, #4cb350);
+/* градиент от #6ffc75 к #4cb350 */
+}
+
+
+

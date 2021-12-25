@@ -1,0 +1,22 @@
+Filename: style.css
+Code:
+.spot {
+  display: flex;
+  width: 450px;
+}
+
+.spot-1 .skate {
+  flex-basis: 300px;
+}
+
+.spot-1 .racoon-brown {
+  flex-shrink: 0;
+}
+
+.spot-2 .skate {
+  flex-shrink: 0;
+  flex-basis: 150px;
+}
+
+
+

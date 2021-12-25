@@ -1,0 +1,9 @@
+Filename: style.css
+Code:
+.picture {
+  transform: scale(0.5);
+  transform-origin: top right;
+}
+
+
+

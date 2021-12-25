@@ -1,0 +1,17 @@
+Filename: script.js
+Code:
+let enoughDevelopers = true;
+let techAvailable = true;
+
+let message = 'Проект нельзя выполнить';
+
+if (enoughDevelopers) {
+  if (techAvailable) {
+    message = 'Проект можно выполнить';
+  }
+}
+
+console.log(message);
+
+
+

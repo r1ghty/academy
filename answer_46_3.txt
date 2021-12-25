@@ -1,0 +1,21 @@
+Filename: index.html
+Code:
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Идентификатор и значение по умолчанию</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Добавить в корзину</h1>
+
+    <form action="https://echo.htmlacademy.ru/courses" method="post">
+      Количество
+      <input type="text" name="total" id="total-field" value="5"> шт.
+    </form>
+  </body>
+</html>
+
+
+

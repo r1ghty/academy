@@ -1,0 +1,74 @@
+Filename: less.
+Code:
+@angle: 45deg;
+@width: 50px;
+@height: 100px;
+
+.round() {
+border-radius: 50%;
+}
+
+.skew(@angle) {
+transform: skewX(@angle);
+}
+
+.rotate(@angle) {
+transform: rotate(@angle);
+}
+
+.rotateSkew(@angle) {
+transform: rotate(@angle) skewX(@angle);
+}
+
+.size(@width; @height) {
+width: @width;
+height: @height;
+}
+
+.square(@width) {
+.size(@width; @width);
+}
+
+.absolute-center() {
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+margin: auto;
+}
+
+.shadow() {
+box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.3);
+}
+
+.piece {
+.shadow();
+.square(10px);
+}
+
+.piece-1 {
+.rotateSkew(@angle);
+.absolute-center();
+.square(@width);
+}
+
+.piece-2 {
+.square(75px);
+.round();
+.absolute-center();
+}
+
+.piece-3 {
+.square(@width);
+.rotate(@angle);
+.absolute-center();
+}
+
+.piece-4 {
+.size(@width; @height);
+.absolute-center();
+}
+
+
+

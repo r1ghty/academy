@@ -1,0 +1,12 @@
+Filename: style.css
+Code:
+.portrait {
+  margin: 20px auto;
+  width: 300px;
+  height: 400px;
+  background: url("img/keks.jpg") no-repeat #ffffff;
+  background-size: 100% 100%;
+}
+
+
+

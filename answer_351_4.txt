@@ -1,0 +1,15 @@
+Filename: up-button.js
+Code:
+let upButton = document.querySelector('.up-button');
+
+window.onscroll = function () {
+  if (window.pageYOffset > 200) {
+    upButton.classList.add('shown');
+  }
+};
+
+// После проверки 400 меняем на 0
+window.scrollTo(0, 400);
+
+
+

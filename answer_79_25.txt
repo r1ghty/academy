@@ -1,0 +1,60 @@
+Filename: style.css
+Code:
+/*
+    Цвета смайликов: #f4c300, #009f3d, #0085c7, #df0024
+    Цвета текста: rgba(255, 0, 180, 0.5), rgba(0, 168, 255, 0.5)
+*/
+
+html, 
+body {
+    min-width: 570px;
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    color: #000000;
+}
+
+p {
+    margin: 0;
+    padding-top: 230px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 65px;
+    text-transform: uppercase;
+    color: rgba(0, 168, 255, 0.5);
+    text-shadow: 5px 5px rgba(255, 0, 180, 0.5);
+    
+    letter-spacing: -5px;
+    word-spacing:5px;
+    
+}
+
+span {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    margin-left: -0.5em;
+    font-size: 200px;
+    line-height: 1em;
+    text-shadow: -70px 80px #f4c300,
+      /*yellow*/
+    70px 80px #009f3d,
+    -140px 0 #0085c7, 
+    140px 0 #df0024;/*red*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+Filename: style.css
+Code:
+svg {
+border: 1px solid #dddddd;
+}
+
+polygon{
+fill: none;
+}
+
+polygon:nth-child(1){
+stroke:yellowgreen;
+stroke-width: 5;
+}
+
+   polygon:nth-child(2) { 
+stroke:gold;
+stroke-width: 10;
+   }
+  
+  polygon:nth-child(3){   
+    }    
+   
+    polygon:nth-last-child(1){
+stroke:lightseagreen;
+stroke-opacity: 0.5;
+stroke-width: 30;
+}
+
+
+

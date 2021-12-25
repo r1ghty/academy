@@ -1,0 +1,14 @@
+Filename: style.css
+Code:
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.columns section {
+  float: left;
+  width: 140px;
+}
+
+
+

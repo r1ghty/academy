@@ -1,0 +1,11 @@
+Filename: password.js
+Code:
+let password = document.querySelector('.password');
+let showPassword = document.querySelector('.show-password');
+
+showPassword.onchange = function() {
+  password.type = 'text';
+}
+
+
+

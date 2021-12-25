@@ -1,0 +1,17 @@
+Filename: index.html
+Code:
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Теги header и footer, хедер и футер</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="page-header">Хедер</header>
+    <footer class="page-footer">Футер</footer>
+  </body>
+</html>
+
+
+

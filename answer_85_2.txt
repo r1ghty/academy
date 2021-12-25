@@ -1,0 +1,10 @@
+Filename: less.
+Code:
+@base-color: rgb(110, 27, 255);
+
+.color-primary {
+  background-color: @base-color;
+}
+
+
+

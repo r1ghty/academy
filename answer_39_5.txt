@@ -1,0 +1,13 @@
+Filename: style.css
+Code:
+table {
+  border: 6px solid black;
+  border-collapse: collapse;
+}
+
+td {
+  border: 3px solid lightgray;
+}
+
+
+

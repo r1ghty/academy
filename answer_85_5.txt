@@ -1,0 +1,18 @@
+Filename: less.
+Code:
+@base-color: rgb(110, 27, 255);
+
+.color-primary {
+  background-color: @base-color;
+}
+
+.palette-item {
+  display: inline-block;
+  /* вложенное правило создайте тут */
+  .color {
+    border-radius: 0;
+  }
+}
+
+
+

@@ -1,0 +1,13 @@
+Filename: product.php
+Code:
+<?php
+require('components/header.php');
+
+$title = 'Люстра Леопом';
+keks_log($title);
+
+require('components/product_info.php');
+require('components/footer.php');
+
+
+

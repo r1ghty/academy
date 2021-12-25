@@ -1,0 +1,37 @@
+Filename: style.css
+Code:
+/* Небольшая подсказка, дальше сами */
+article {
+    margin: 10px;
+    width: 470px;
+    display: table;
+    background-image: url(https://htmlacademy.ru/assets/course86/img/wood.png);
+    border: 5px solid #686868;
+    border-spacing: 15px;
+}
+
+article ul {
+    display: table-row;     
+}
+
+article ul:last-child li {
+         background-image: url(https://htmlacademy.ru/assets/course86/img/wall-2.png);
+}
+
+article li {
+    display: table-cell;
+    border: 10px solid #686868;
+    text-align: center;
+    background-image: url(https://htmlacademy.ru/assets/course86/img/wall-1.png);
+    padding: 20px 30px;
+}
+
+article li:nth-child(2) {
+    padding: 20px 20px;   
+}
+
+article li:last-child {
+    padding: 20px 50px;   
+}
+
+

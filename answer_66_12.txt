@@ -1,0 +1,10 @@
+Filename: style.css
+Code:
+/* Усильте селектор этого правила, чтобы вырвать курочку */
+
+#keks-vs-rudolf .to-rudolf {
+  margin-left: 120px;
+}
+
+
+

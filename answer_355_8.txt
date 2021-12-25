@@ -1,0 +1,14 @@
+Filename: index.php
+Code:
+<?php
+require('products_db.php');
+
+$products = get_products();
+
+require('components/header.php');
+require('components/promo.php');
+require('components/company_info.php');
+require('components/footer.php');
+
+
+

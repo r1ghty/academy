@@ -1,0 +1,49 @@
+Filename: less.
+Code:
+@lime: #01FF70;
+@red: #FF4136;
+@yellow: #FFDC00;
+@fuchsia: #F012BE;
+
+.magic(@color) {
+background-color: @color;
+}
+
+.magic(rotate; @angle) {
+transform: rotate(@angle);
+}
+
+.magic(spin; @color) {
+background-color: spin(@color, 90deg);
+}
+
+.magic(reduce; @size) {
+width: @size;
+height: @size;
+}
+
+.magic(skew; @angle) {
+transform: skewX(@angle);
+}
+
+.monster-1 {
+.magic(rotate; 180deg);
+.magic(@red);
+}
+
+.monster-2 {
+.magic(spin; @lime);
+}
+
+.monster-3 {
+.magic(reduce; 80px);
+.magic(@yellow);
+}
+
+.monster-4 {
+.magic(skew; -5deg);
+.magic(@fuchsia);
+}
+
+
+

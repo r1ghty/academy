@@ -1,0 +1,16 @@
+Filename: index.php
+Code:
+<?php
+require('products_db.php');
+require('components/header.php');
+
+// Раскомментируйте код ниже
+// Задание простое, удаляем элементы массива, как просят
+$brands = ['ehm', 'cubic', 'tehnodom', 'dg'];
+
+require('components/company_info.php');
+require('components/footer.php');
+?>
+
+
+

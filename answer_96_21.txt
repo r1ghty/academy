@@ -1,0 +1,16 @@
+Filename: style.css
+Code:
+.pictures {
+  display: flex;
+}
+
+.picture {
+  margin: auto;
+}
+
+.picture img {
+  width: 40px;
+}
+
+
+

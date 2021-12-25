@@ -1,0 +1,13 @@
+Filename: script.js
+Code:
+let string = '123';
+let number = 123;
+
+if (Number(string) === number) {
+  console.log('Сравнение заработало');
+} else {
+  console.log('Не могу сравнить');
+}
+
+
+

@@ -1,0 +1,21 @@
+Filename: style.css
+Code:
+.platform {
+  animation-name: lift-up;
+  animation-duration: 3s;
+}
+
+@keyframes lift-up {
+  0% {
+    transform: translateY(0px);
+  }
+  50%, 80% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(-300px);
+  }
+}
+
+
+

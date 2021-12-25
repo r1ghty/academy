@@ -1,0 +1,14 @@
+Filename: style.css
+Code:
+div {
+  margin: 20px;
+  padding: 10px;
+}
+
+.example {
+  width: 100px;
+  height: 100px;
+}
+
+
+

@@ -1,0 +1,9 @@
+Filename: script.js
+Code:
+let mediaInTwoDays = 3 + 2.5;
+let timeInMinutes=mediaInTwoDays * 60;
+console.log(timeInMinutes);
+let minutesLeftPerDay=(420 - timeInMinutes) / 5;
+console.log(minutesLeftPerDay);
+
+

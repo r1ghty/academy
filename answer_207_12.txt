@@ -1,0 +1,7 @@
+Filename: script.js
+Code:
+console.log('Социомер v0.1 запущен');
+let timeInHours = keks.ask('Босс, сколько часов в соцсетях вы провели?')
+console.log('Социомер получил данные о соцсетях. Проведено '+timeInHours +' часов.');
+
+

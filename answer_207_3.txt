@@ -1,0 +1,10 @@
+Filename: script.js
+Code:
+// Программа для расчёта времени в часах и минутах
+console.log('Время в часах:');
+console.log(3 + 2.5);
+console.log('Время в минутах:');
+console.log((3 + 2.5) * 60);
+
+
+

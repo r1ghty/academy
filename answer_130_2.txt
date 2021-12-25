@@ -1,0 +1,7 @@
+Filename: svg.
+Code:
+<svg>
+  <rect width="50%" height="100" fill="orange"/>
+</svg>
+
+

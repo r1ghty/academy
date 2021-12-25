@@ -1,0 +1,12 @@
+Filename: script.js
+Code:
+let diceNumber = 2;
+
+let runGame = function (quantity) {
+  console.log(keks.throwDice(quantity, quantity * 6));  
+};
+
+runGame(diceNumber);
+
+
+

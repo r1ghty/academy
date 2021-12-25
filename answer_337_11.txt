@@ -1,0 +1,14 @@
+Filename: product.php
+Code:
+<?php
+require('products_db.php');
+require('components/header.php');
+
+/* После того, как сработает проверка, меняем 1 на 5 */
+$title = get_product_title(1);
+
+require('components/product_info.php');
+require('components/footer.php');
+
+
+

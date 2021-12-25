@@ -1,0 +1,8 @@
+Filename: style.css
+Code:
+input:required {
+    border: 1px solid #e74c3c;
+    background: url("required.png") no-repeat 100% 50%;
+}
+
+

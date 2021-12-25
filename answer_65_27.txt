@@ -1,0 +1,183 @@
+Filename: style.css
+Code:
+html,
+
+body {
+
+margin: 0;
+
+padding: 0;
+
+}
+
+body {
+
+width: 450px;
+
+height: 335px;
+
+font-size: 10px;
+
+font-family: "Arial", sans-serif;
+
+color: white;
+
+}
+
+.helper {
+
+padding: 10px;
+
+}
+
+.center {
+
+margin: 0;
+
+width: 450px;
+
+}
+
+.center::after {
+
+content:"";
+
+display: table;
+
+clear: both;
+
+}
+
+.header {
+
+background-color:#34495e;
+
+height: 55px;
+
+}
+
+.hcont {
+
+background-color: #c0392b;
+
+min-height: 25px;
+
+margin: 0 40px;
+
+padding: 5px;
+
+}
+
+.menu {
+
+background-color: #3498db;
+
+height: 35px;
+
+}
+
+.mcont {
+
+padding: 5px 55px;
+
+}
+
+.promo {
+
+background-color:#34495e;
+
+height: 80px;
+
+}
+
+.pcont1 {
+
+float: left;
+
+background-color: #c0392d;
+
+min-height: 50px;
+
+margin-left: 40px;
+
+width: 160px;
+
+margin-right: 10px;
+
+padding: 5px
+
+}
+
+.pcont2 {
+
+float: left;
+
+background-color: #c0392d;
+
+min-height: 50px;
+
+margin-right: 40px;
+
+width: 160px;
+
+padding: 5px
+
+}
+
+.storon {
+
+height: 130px;
+
+}
+
+.scont {
+
+height: 100px;
+
+background-color: #3498db;
+
+float: left;
+
+width: 60px;
+
+margin: 10px 5px 10px 5px;
+
+padding: 5px;
+
+}
+
+.scont:last-child {
+
+float: right;
+
+margin-right: 50px;
+
+}
+
+.scont:first-child {
+
+float: left;
+
+margin-left: 50px;
+
+}
+
+.scont:nth-child(2) {
+
+float: left;
+
+width: 180px;
+
+}
+
+.foot {
+
+height: 35px;
+
+background-color: #34495e;
+
+padding: 5px 55px;
+
+}
+
+

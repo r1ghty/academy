@@ -1,0 +1,10 @@
+Filename: script.js
+Code:
+let totalPages = 7;
+
+for (let page = 0; page < totalPages; page = page + 1) {
+  keks.print(page);  
+}
+
+
+

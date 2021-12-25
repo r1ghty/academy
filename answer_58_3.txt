@@ -1,0 +1,9 @@
+Filename: style.css
+Code:
+input[value*="кекс"] {
+    color: #3498db;
+}
+
+
+
+

@@ -1,0 +1,18 @@
+Filename: style.css
+Code:
+.room {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rug {
+  height: 150px;
+}
+
+.rug.keks {
+  height: 250px;
+}
+
+
+

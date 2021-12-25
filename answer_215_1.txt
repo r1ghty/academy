@@ -1,0 +1,10 @@
+Filename: script.js
+Code:
+let percent = 0.25;
+let distance = 4125;
+
+let miles = distance * percent;
+console.log('За полёт в Иркутск получим ' + miles + ' миль');
+
+
+

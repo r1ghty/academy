@@ -1,0 +1,131 @@
+Filename: style.css
+Code:
+body {
+
+width: 550px;
+
+height: 400px;
+
+margin: 0;
+
+padding: 0;
+
+}
+
+.map {
+
+width: 400px;
+
+height: 200px;
+
+margin: 0 auto;
+
+}
+
+.map img {
+
+float: left;
+
+margin: 0;
+
+padding: 0;
+
+}
+
+.part-t{
+
+transform: translate(-300px, -200px) rotate(-90deg);
+
+}
+
+.part-h{
+
+transform: translateX(-200px) rotate(-90deg);
+
+}
+
+.part-q{
+
+transform: translate(100px,-200px) rotate(90deg);
+
+}
+
+.part-c{
+
+transform: translate(200px,100px) rotate(90deg);
+
+}
+
+.part-o{
+
+transform: translate(100px,200px) rotate(-90deg);
+
+}
+
+.part-k{
+
+transform: translate(300px,-100px);
+
+}
+
+.part-i{
+
+transform: translate(-200px,0px) rotate(90deg);
+
+}
+
+.part-e{
+
+transform: translate(100px,-100px);
+
+}
+
+.part-w{
+
+transform: translate(100px,200px) rotate(0deg);
+
+}
+
+.part-s{
+
+transform: translate(100px,200px) rotate(180deg);
+
+}
+
+.part-n{
+
+transform: translate(0px,200px) rotate(180deg);
+
+}
+
+.part-u{
+
+transform: translate(0px,-200px) rotate(90deg);
+
+}
+
+.part-b{
+
+transform: translate(-100px,-100px) rotate(-90deg);
+
+}
+
+.part-a{
+
+transform: translate(100px,100px) rotate(180deg);
+
+}
+
+.part-r{
+
+transform: translate(-100px,-100px);
+
+}
+
+.part-g{
+
+transform: translate(-200px,0px) rotate(180deg);
+
+}
+
+

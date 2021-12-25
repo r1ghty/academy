@@ -1,0 +1,9 @@
+Filename: style.css
+Code:
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+

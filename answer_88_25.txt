@@ -1,0 +1,13 @@
+Filename: style.css
+Code:
+.square {
+    width: 0;
+    height: 0;
+    margin: 100px auto;
+    background-color: #aaaaaa;
+    border: 100px solid #ffffff;
+
+}
+
+
+

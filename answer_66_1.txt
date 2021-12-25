@@ -1,0 +1,24 @@
+Filename: index.html
+Code:
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Заголовок</title>
+  </head>
+  <body>
+    <div>
+      <h1>Заголовок</h1>
+      <p>Абзац</p>
+    </div>
+    <div class="empty"></div>
+    <ul>
+      <li class="first">Первый</li>
+      <li>Второй</li>
+      <li>Третий</li>
+    </ul>
+  </body>
+</html>
+<!-- Добавьте внутрь тегов произвольный текст, чтобы увидеть их отображение в браузере -->
+
+
+

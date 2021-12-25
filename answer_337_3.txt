@@ -1,0 +1,6 @@
+Filename: catalog.php
+Code:
+<?php
+require('components/header.php');?>
+
+

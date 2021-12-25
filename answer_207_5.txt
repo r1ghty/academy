@@ -1,0 +1,6 @@
+Filename: script.js
+Code:
+console.log([50, 320, 480]);
+console.log({media: 'Twitter', time: 5});
+
+

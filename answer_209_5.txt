@@ -1,0 +1,7 @@
+Filename: script.js
+Code:
+let string = '123';
+let number = 123;
+console.log(string !== number);
+
+

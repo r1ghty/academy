@@ -1,0 +1,35 @@
+Filename: style.css
+Code:
+html,
+body {
+    height: 100%;
+}
+
+.table-layout {
+    display: table;
+    width: 100%;
+    height: 100%;}
+
+html,
+body {
+    height: 100%;
+}
+
+.table-layout {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+/*Таблицы на CSS / Holy Grail, часть 2
+Блокам header и footer задайте отображение рядами таблицы
+Цель 2и высоту 1px.
+*/
+header,
+footer {
+    display: table-row; 
+    height: 1px;
+}
+
+/* */
+
+

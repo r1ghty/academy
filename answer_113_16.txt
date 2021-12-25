@@ -1,0 +1,17 @@
+Filename: style.css
+Code:
+.spot {
+  display: flex;
+  flex-wrap: wrap;
+  width: 450px;
+  height: auto;
+  
+}
+
+.skate {
+  flex-shrink: 0;
+  flex-basis: 500px;
+}
+
+
+

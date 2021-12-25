@@ -1,0 +1,13 @@
+Filename: style.css
+Code:
+.box-shadow img {
+  background-color: #ffffff;
+  box-shadow: 0 0 10px red;
+}
+
+.filter-shadow img {
+  background-color: #ffffff;
+  filter: drop-shadow(0 0 10px red);
+}
+
+

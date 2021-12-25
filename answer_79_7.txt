@@ -1,0 +1,29 @@
+Filename: style.css
+Code:
+body {
+  background: url("pumpkin.jpg") no-repeat 50% 0;
+  color: #2b2328;
+  font-family: "Arial", sans-serif;
+}
+
+h1 {
+  margin: 30px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 100px;
+  text-shadow:
+    -1px -1px 1px #1e181c,
+    2px 2px 1px #52424d;
+
+}
+
+span {
+  position: absolute;
+  top: 270px;
+  left: 30px;
+  color: #cb454c;
+  font-size: 150px;
+}
+
+
+

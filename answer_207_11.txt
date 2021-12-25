@@ -1,0 +1,12 @@
+Filename: script.js
+Code:
+let mediaInTwoDays = 3 + 2.5;
+
+let timeInMinutes = mediaInTwoDays * 60;
+console.log('Босс, за два дня вы провели в соцсетях ' + timeInMinutes + ' минут.');
+
+let minutesLeftPerDay = (420 - timeInMinutes) / 5;
+console.log('В оставшиеся дни вы можете сидеть в соцсетях по ' + minutesLeftPerDay + ' минут в день.');
+
+
+

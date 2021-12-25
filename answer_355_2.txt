@@ -1,0 +1,21 @@
+Filename: delivery.php
+Code:
+<?php
+require('products_db.php');
+
+$order = [2, 7, 15, 16];
+
+// Объявите функцию здесь
+function get_final_price() {
+  keks_log('Привет из функции');  
+}
+
+get_final_price();
+get_final_price();
+
+require('components/header.php');
+require('components/delivery_info.php');
+require('components/footer.php');
+
+
+

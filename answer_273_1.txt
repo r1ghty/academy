@@ -1,0 +1,7 @@
+Filename: script.js
+Code:
+var popup = document.querySelector('.modal');
+popup.classList.add('modal--show');
+
+
+

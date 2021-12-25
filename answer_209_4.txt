@@ -1,0 +1,8 @@
+Filename: script.js
+Code:
+console.log(true <= 0);
+console.log('2' > '1');
+console.log('кекс' < 'КЕКС');
+
+
+

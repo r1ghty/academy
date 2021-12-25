@@ -1,0 +1,16 @@
+Filename: style.css
+Code:
+.room {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  align-items: stretch;
+}
+
+.rug {
+  min-height: 40px;
+  width: 180px;
+}
+
+
+

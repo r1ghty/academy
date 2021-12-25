@@ -1,0 +1,9 @@
+Filename: less.
+Code:
+@red: #ff4136;
+
+.red {
+  background-color: @red;
+}
+
+

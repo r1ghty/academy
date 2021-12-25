@@ -1,0 +1,8 @@
+Filename: script.js
+Code:
+let timeInHours;
+timeInHours=keks.ask('Босс, сколько часов в соцсетях вы провели?');
+console.log('Получено время в часах:')
+console.log(timeInHours)
+
+

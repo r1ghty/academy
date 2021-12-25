@@ -1,0 +1,191 @@
+Filename: style.css
+Code:
+html {
+
+padding: 0;
+
+}
+
+body {
+
+margin: 0;
+
+padding: 20px;
+
+}
+
+.scene {
+
+position: relative;
+
+width: 260px;
+
+height: 260px;
+
+background: none;
+
+box-shadow: 0 0 0 5px rgba(255, 255, 255, 0.5);
+
+}
+
+div {
+
+display: inline-block;
+
+background-color: white;
+
+}
+
+/* горизонтальные элементы */
+
+.h {
+
+width: 50px;
+
+height: 10px;
+
+position: relative;
+
+margin-top: 190px;
+
+}
+
+.h1 {
+
+left: 20px;
+
+}
+
+.h2 {
+
+bottom: 20px;
+
+left: 26px;
+
+}
+
+.h3 {
+
+width: 40px;
+
+left: 92px;
+
+top: 20px;
+
+}
+
+/* вертикальные элементы */
+
+.v {
+
+width: 10px;
+
+height: 50px;
+
+position: absolute;
+
+margin-top: 170px;
+
+}
+
+.v1 {
+
+left: 20px;
+
+}
+
+.v2 {
+
+left: 60px;
+
+}
+
+.v3 {
+
+left: 100px;
+
+}
+
+.v4 {
+
+right: 110px;
+
+}
+
+.v5 {
+
+right: 70px;
+
+}
+
+.v6 {
+
+right: 50px;
+
+}
+
+/* уголки */
+
+.corner-top {
+
+background: none;
+
+border: 15px solid white;
+
+border-top-width: 20px;
+
+border-top-color: transparent;
+
+border-bottom-width: 0;
+
+position: relative;
+
+bottom: 10px;
+
+right: 2px;
+
+}
+
+.corner-bottom {
+
+background: none;
+
+border: 15px solid transparent;
+
+border-top-width: 20px;
+
+border-top-color: white;
+
+border-bottom-width: 0;
+
+position: relative;
+
+top: 10px;
+
+right: 36px;
+
+}
+
+/* лого */
+
+.logo {
+
+width: 64px;
+
+height: 64px;
+
+background-image: url("logo.png");
+
+background-repeat: no-repeat;
+
+background-color: transparent;
+
+position: absolute;
+
+top: 80px;
+
+left: 87px;
+
+}
+
+

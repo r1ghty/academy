@@ -1,0 +1,7 @@
+Filename: style.css
+Code:
+.checklist{
+  display: table;
+}
+
+

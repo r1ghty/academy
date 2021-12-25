@@ -1,0 +1,59 @@
+Filename: style.css
+Code:
+.palette div {
+
+min-width: 35px;
+
+min-height: 35px;
+
+}
+
+.palette {
+
+display: flex;
+
+}
+
+.color-olive,
+
+.color-aqua {
+
+height: 150px;
+
+}
+
+.color-yellow,
+
+.color-fuchsia {
+
+height: 100px;
+
+}
+
+.color-olive {
+
+margin: auto 10px auto auto;
+
+}
+
+.color-yellow {
+
+margin: auto auto 5px 0;
+
+}
+
+.color-fuchsia {
+
+margin: 5px 10px auto 5px;
+
+}
+
+.color-aqua {
+
+width: 50px;
+
+margin: auto auto auto 0;
+
+}
+
+

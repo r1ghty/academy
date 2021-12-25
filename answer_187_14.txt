@@ -1,0 +1,30 @@
+Filename: style.css
+Code:
+
+svg {
+  border: 1px solid #dddddd;
+}
+
+.circle-1 {
+    fill: none;
+    stroke: tomato;
+    stroke-width: 150;
+    stroke-dasharray: 15 15;
+}
+
+.circle-2 {
+    fill: none;
+    stroke: darkorange;
+    stroke-width: 125;
+    stroke-dasharray: 10 10;
+}
+
+.circle-3 {
+    fill: gold;
+    stroke: gold;
+    stroke-width: 75;
+    stroke-dasharray: 15 10;
+}
+
+
+

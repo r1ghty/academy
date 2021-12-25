@@ -1,0 +1,6 @@
+Filename: read-mode.js
+Code:
+let longread = document.querySelector(".longread");
+longread.style.color = 'purple';
+
+

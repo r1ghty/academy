@@ -1,0 +1,16 @@
+Filename: style.css
+Code:
+.spot {
+  display: flex;
+}
+
+.racoon-green {
+  flex-grow: 1;
+}
+
+.racoon-orange {
+    flex-grow: 1;
+}
+
+
+

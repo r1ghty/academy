@@ -1,0 +1,20 @@
+Filename: style.css
+Code:
+.wizard {
+  top: 244px;
+  left: 125px;
+  transform: translateX(130px) scale(0.5) translateX(570px);
+  
+}
+
+.tree {
+  top: 178px;
+  left: 10px;
+}
+
+.world {
+  min-width: 570px;
+}
+
+
+

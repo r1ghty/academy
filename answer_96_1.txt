@@ -1,0 +1,8 @@
+Filename: style.css
+Code:
+.room {
+  display: flex;
+}
+
+
+

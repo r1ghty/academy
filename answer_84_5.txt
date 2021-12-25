@@ -1,0 +1,18 @@
+Filename: style.css
+Code:
+.square {
+  transition-property:all;
+  transition-duration: 3s;
+}
+
+.square-active {
+  left: 75%;
+  border-radius: 50%;
+}
+
+.square-experimental {
+  transition-timing-function:linear;
+}
+
+
+

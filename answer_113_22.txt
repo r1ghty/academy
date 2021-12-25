@@ -1,0 +1,14 @@
+Filename: style.css
+Code:
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+}
+
+.menu div{
+   flex-grow: 1; 
+}
+
+
+

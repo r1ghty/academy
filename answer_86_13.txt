@@ -1,0 +1,13 @@
+Filename: style.css
+Code:
+.modal-wrapper {
+    display: table;
+}
+
+.modal-cell {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+

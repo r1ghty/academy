@@ -1,0 +1,38 @@
+Filename: style.css
+Code:
+.pattern {
+height: 100%;
+background-image:
+linear-gradient(45deg, #555 15.4%, transparent 15.4%),
+linear-gradient(315deg, #555 15.4%, transparent 15.4%),
+linear-gradient(135deg, #555 15.4%, transparent 15.4%),
+linear-gradient(225deg, #555 15.4%, transparent 15.4%),
+linear-gradient(45deg, #000 15.4%, transparent 15.4%),
+linear-gradient(225deg, #000 15.4%, transparent 15.4%);
+background-size: 115px 115px;
+background-repeat: repeat;
+background-position:
+70px -45px,
+-45px -80px,
+35px 70px,
+-80px 35px,
+35px -45px,
+-45px 35px;
+}
+
+body {
+min-width: 565px;
+min-height: 298px;
+background-image: url("bamboo.jpg");
+background-repeat: repeat;
+background-position: 0 0;
+}
+
+html,
+body {
+margin: 0;
+height: 100%;
+}
+
+
+

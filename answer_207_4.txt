@@ -1,0 +1,8 @@
+Filename: script.js
+Code:
+console.log(3);
+console.log(2.5);
+console.log('Привет от Кекса');
+console.log(true);
+
+

@@ -1,0 +1,17 @@
+Filename: password.js
+Code:
+let password = document.querySelector('.password');
+let showPassword = document.querySelector('.show-password');
+let securityBar = document.querySelector('.security-bar');
+securityBar.style.width = '50%';
+
+showPassword.onchange = function () {
+  if (showPassword.checked) {
+    password.type = 'text';
+  } else {
+    password.type = 'password';
+  }
+};
+
+
+

@@ -1,0 +1,19 @@
+Filename: style.css
+Code:
+
+
+.portrait {
+    width: 500px;
+    height: 450px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    background-image: url("https://htmlacademy.ru/assets/course88/img/keks.jpg");;
+    background-repeat: repeat round;
+    background-size: 150px;
+   background-repeat:repeat space;
+  
+   background-repeat: space;
+}
+
+
+

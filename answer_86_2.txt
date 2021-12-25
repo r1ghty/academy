@@ -1,0 +1,13 @@
+Filename: style.css
+Code:
+.checklist {
+  display: table;
+}
+.checklist ul {
+  display: table-row
+}
+li{
+  display: table-cell;
+}
+
+

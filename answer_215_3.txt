@@ -1,0 +1,30 @@
+Filename: script.js
+Code:
+// Скопируйте весь код, написанный ниже
+
+let percent = 0.25;
+let distance = 4125;
+
+if (distance > 10500) {
+  percent = 0.35;
+}
+
+let miles = distance * percent;
+
+console.log('За полёт в Иркутск получим ' + miles + ' миль');
+
+// Вставьте код после этого комментария
+
+percent = 0.25;
+distance = 11000;
+
+if (distance > 10500) {
+  percent = 0.35;
+}
+
+miles = distance * percent;
+
+console.log('За полёт на Камчатку получим ' + miles + ' миль');
+
+
+

@@ -1,0 +1,11 @@
+Filename: style.css
+Code:
+.grayscale img {
+  filter: grayscale(1);
+}
+
+.sepia img {
+  filter: sepia(1);
+}
+
+

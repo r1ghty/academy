@@ -1,0 +1,13 @@
+Filename: script.js
+Code:
+let optimalTime = 80;
+let walkTime = 80;
+
+if (walkTime >= optimalTime) {
+  console.log('Прогулка достаточно длинная');
+} else {
+  console.log('Нужно ещё погулять');
+}
+
+
+

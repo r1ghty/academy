@@ -1,0 +1,17 @@
+Filename: filter.js
+Code:
+let articles = document.querySelectorAll('.news-block');
+let filter = document.querySelector('.filter');
+
+filter.onchange = function () {
+  for (let article of articles) {
+    // === меняем на !==, ждём проверки, выполняем триггер
+    if (article.dataset.category === filter.value) {
+      // highlight меняем на hidden, выполняем триггер
+      article.classList.add('highlight');
+    }
+  }
+};
+
+
+

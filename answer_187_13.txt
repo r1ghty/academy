@@ -1,0 +1,15 @@
+Filename: style.css
+Code:
+svg {
+  border: 1px solid #dddddd;
+}
+
+.shape-stroke {
+  fill: gold;
+  stroke: darkorange;
+  stroke-dasharray: 20;
+  stroke-width:100;
+}
+
+
+

@@ -1,0 +1,8 @@
+Filename: svg.
+Code:
+<svg width="200" height="200">
+<circle r="70" cx="100" cy="100" fill="none" stroke="lightgrey" stroke-width="55"/>
+</svg>
+
+
+

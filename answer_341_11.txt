@@ -1,0 +1,19 @@
+Filename: catalog.php
+Code:
+<?php
+require('components/header.php');
+
+$item = [
+  'img_url' => 'img/item-mseyulida.jpg',
+  'title' => 'Лампа Мсеюлида',
+  'price' => 4000,
+  'type' => 'ligthing',
+  'colors' => ['orange', 'green', 'yellow', 'blue', 'black']
+];
+
+require('components/products_list.php');
+require('components/footer.php');
+?>
+
+
+

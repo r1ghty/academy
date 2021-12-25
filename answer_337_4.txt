@@ -1,0 +1,10 @@
+Filename: catalog.php
+Code:
+<?
+require('components/header.php');
+require('components/products_list.php');
+require('components/footer.php');
+?>
+
+
+

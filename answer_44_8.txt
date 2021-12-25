@@ -1,0 +1,53 @@
+Filename: style.css
+Code:
+html,
+
+body {
+
+margin: 0;
+
+padding: 0;
+
+}
+
+body {
+
+padding-top: 20px;
+
+padding-left: 20px;
+
+}
+
+.block {
+
+background-color: rgba(0, 255, 255, 0.2);
+
+}
+
+/* Стили блоков */
+
+.block-1 {line-height: 20px;
+
+width: 180px;
+
+height: 40px;
+
+margin-top: 40px;
+
+}
+
+.block-2 {
+
+width: 180px;
+
+height: 100px;
+
+margin-top: 40px;
+
+margin-left: 100px;
+
+border: 10px solid white;
+
+}
+
+

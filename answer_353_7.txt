@@ -1,0 +1,6 @@
+Filename: password.js
+Code:
+let password = document.querySelector(".password");
+password.type = 'text';
+
+

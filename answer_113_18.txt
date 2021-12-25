@@ -1,0 +1,13 @@
+Filename: style.css
+Code:
+.spot {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skate {
+  flex-basis: 100%;
+}
+
+
+

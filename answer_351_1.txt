@@ -1,0 +1,7 @@
+Filename: up-button.js
+Code:
+window.onscroll = function () {
+  console.log("Скролл детектед!")  
+};
+
+

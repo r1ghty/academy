@@ -1,0 +1,21 @@
+Filename: delivery.php
+Code:
+<?php
+require('products_db.php');
+
+$order = [2, 7, 15, 16];
+
+function get_final_price($price, $discount) {
+  keks_log($price - $discount);
+}
+
+get_final_price(1000, 200);
+get_final_price(3000, 0);
+
+
+require('components/header.php');
+require('components/delivery_info.php');
+require('components/footer.php');
+
+
+

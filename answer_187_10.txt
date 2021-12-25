@@ -1,0 +1,9 @@
+Filename: style.css
+Code:
+svg {
+  border: 1px solid #dddddd;
+  stroke-linejoin: bevel
+}
+
+
+

@@ -1,0 +1,30 @@
+Filename: style.css
+Code:
+.portrait {
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 40px solid rgba(255, 255, 0, 0.4);
+    outline: 20px solid silver;
+    outline-style: silver;
+    outline-offset: 10px;
+    outline-offset: 10px;
+    background-color:  #ffffff;
+    background-image:
+        url("https://htmlacademy.ru/assets/course88/img/glasses.svg"),
+        url("https://htmlacademy.ru/assets/course88/img/keks.jpg");
+    background-repeat: no-repeat;
+    background-position:
+        75px 125px,
+        center;
+    background-origin: border-box;
+    background-clip: padding-box;
+    background-size:
+        150px,
+        cover;
+}
+
+
+

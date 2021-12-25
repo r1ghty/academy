@@ -1,0 +1,17 @@
+Filename: script.js
+Code:
+let enoughDevelopers = true;
+let techAvailable = false;
+let onVacation = false;
+let onSickLeave = true;
+
+if (enoughDevelopers && techAvailable) {
+  console.log('Проект можно выполнить');
+}
+
+if (onVacation || onSickLeave) {
+  console.log('Проект нельзя выполнить');
+}
+
+
+

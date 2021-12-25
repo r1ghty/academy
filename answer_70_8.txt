@@ -1,0 +1,16 @@
+Filename: style.css
+Code:
+body {
+  background-color: #f5f5f5;
+}
+
+.flag {
+  margin: 100px auto;
+  width: 360px;
+  height: 240px;
+  background-image: linear-gradient(#ffffff 25%, #1199ff 50%, #0039a6 75%, #d52b1e 100%);
+  box-shadow: 1px 1px 3px #333333;
+}
+
+
+

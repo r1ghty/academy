@@ -1,0 +1,13 @@
+Filename: style.css
+Code:
+.checklist ul {
+    display: table;
+    margin: auto;
+
+}
+
+.checklist li {
+    text-align: center;}
+
+
+

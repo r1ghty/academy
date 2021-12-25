@@ -1,0 +1,51 @@
+Filename: index.html
+Code:
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="setting.css">
+    <link rel="stylesheet" href="style.css">
+    <title>FlashNews!</title>
+  </head>
+
+  <body class="page light-theme">
+    <header class="page-header">
+      <div class="container">
+        <span class="header-logo">
+          <img src="img/main-logo.svg" width="67" height="29" alt="Логотип портала FlashNews!">
+        </span>
+        <button class="theme-button" type="button">Изменить тему</button>
+      </div>
+    </header>
+
+    <main class="inner-news">
+      <article class="container">
+        <h1 class="inner-heading">? Шок! Скандал! Сенсация!</h1>
+        <div class="news-full">
+          <img src="img/news-robot2.jpg" alt="Робот на курорте">
+          <div class="news-stats">
+            <button class="heart" type="button"><span class="likes-number"></span></button>
+            <time datetime="2019-12-22">22 декабря 2019</time>
+          </div>
+          <p>Оказывается, для того, чтобы начать программировать на JavaScript, необязательно быть котом! Учёные создали первого робота, который может развиваться и изменять свой код. Он сразу же научился верстать сайты и уехал фрилансить на Бали.</p>
+        </div>
+      </article>
+    </main>
+
+      <footer class="page-footer">
+        <div class="container">
+          <p>© FlashNews!</p>
+          <span class="footer-logo">
+            <img src="img/white-logo.svg" alt="Логотип портала FlashNews!">
+          </span>
+        </div>
+      </footer>
+
+    <script src="themes.js"></script>
+    <script src="likes.js"></script>
+  </body>
+</html>
+
+
+

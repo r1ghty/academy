@@ -1,0 +1,24 @@
+Filename: style.css
+Code:
+.cards-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  margin-right: 10px;
+  width: 120px;
+  padding: 15px;
+}
+
+.card:nth-child(3) {
+  margin-right: 0px;
+}
+
+.current {
+  width: 150px;
+}
+
+
+

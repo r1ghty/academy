@@ -1,0 +1,6 @@
+Filename: script.js
+Code:
+3 + 2.5;
+(3 + 2.5) * 60;
+
+

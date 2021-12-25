@@ -1,0 +1,14 @@
+Filename: script.js
+Code:
+let optimalTime = 80;
+let walkTime = 90;
+let timeLeft;
+
+if (walkTime >= optimalTime) {
+  timeLeft = 0;
+} else {
+  console.log('Нужно ещё погулять');
+}
+
+
+

@@ -1,0 +1,19 @@
+Filename: components/products_list.php
+Code:
+<section class="catalog">
+  <div class="container">
+    <h1 class="catalog-title">Каталог товаров</h1>
+    <ul class="products-list">
+      <li>
+        <a class="product-card" href="#">
+          <h3><?= $item['title'] ?></h3>
+          <span class="price"><?= $item['price'] ?></span>
+          <img src="<?= $item['img_url'] ?>" width="156" height="120" alt="<?= $item['title'] ?>">
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+
+

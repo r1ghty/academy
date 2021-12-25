@@ -1,0 +1,13 @@
+Filename: style.css
+Code:
+.sort-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-sort:checked ~ .sort-list {
+  flex-direction: column-reverse;
+}
+
+
+

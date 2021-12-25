@@ -1,0 +1,36 @@
+Filename: style.css
+Code:
+@keyframes blink {
+    50% {
+        opacity: 1;
+    }
+} 
+
+@keyframes reaction {
+    0% {
+        background-color: #01FF70;
+    }
+    
+    100% {
+        background-color: #FF4136;   
+    }
+}
+
+.bubbles {
+    animation-name: blink;
+    animation-duration: 2s;
+}
+
+.reagent {
+    animation-name: reaction;
+    animation-duration: 3s; 
+    animation-delay: 2s;
+}
+
+.experimental-reagent {
+    animation-fill-mode: forwards;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+}
+
+

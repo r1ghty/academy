@@ -1,0 +1,16 @@
+Filename: style.css
+Code:
+.post {
+  display: flex;
+}
+
+.post aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 20px;
+  order: -1;
+}
+
+
+

@@ -1,0 +1,18 @@
+Filename: less.
+Code:
+@type: bad;
+
+.monster-happy {
+  .paint();
+}
+
+.paint() when (@type = good) {
+  background-color: #7fdbff;
+}
+
+.paint() when (@type = bad) {
+  background-color: #ff4136;
+}
+
+
+

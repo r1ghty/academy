@@ -1,0 +1,12 @@
+Filename: style.css
+Code:
+svg {
+  border: 1px solid #dddddd;
+}
+
+.shape-fill {
+  fill: yellowgreen;
+}
+
+
+

@@ -1,0 +1,73 @@
+Filename: style.css
+Code:
+html,
+body {
+margin: 0;
+padding: 0;
+}
+
+body {
+width: 280px;
+min-height: 280px;
+padding-top: 20px;
+padding-left: 20px;
+
+font-size: 14px;
+line-height: 1.2;
+font-family: “Arial”, sans-serif;
+
+background-color: #ecf0f1;
+}
+
+/*
+Все размеры, отступы, координаты, размеры шрифтов (не заданные в body) кратны 5 или 10.
+Адрес картинки-спрайта — social-challenge.png
+*/
+
+.fonts {
+width: 200px;
+height: 195px;
+padding: 20px;
+background-color: #1abc9c;
+color: #ffffff;
+}
+
+.fonts h1 {
+margin: 0px;
+font-size: 20px;
+font-weight:normal;
+}
+
+.fonts p {
+margin-top: 20px;
+}
+
+.share {
+margin-top: 25px;
+}
+
+.social {
+display: inline-block;
+width: 30px;
+height: 30px;
+margin-right: 5px;
+vertical-align: middle;
+background-color: #16a085;
+background-image: url("social-challenge.png");
+background-repeat: no-repeat;
+}
+
+.social-fb{
+background-position: 0 0;
+}
+
+.social-tw {
+background-position: -30px 0px;
+}
+
+.social-g {
+background-position: -60px 0px;
+}
+
+
+

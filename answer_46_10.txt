@@ -1,0 +1,26 @@
+Filename: index.html
+Code:
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Чекбокс</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Регистрация</h1>
+
+    <form action="https://echo.htmlacademy.ru/courses" method="post">
+      <p>Множество полей</p>
+      <p>И как всегда в конце формы регистрации вопрос:</p>
+
+      <input type="checkbox" name="subscribe" id="subscribe-field" checked>
+      <label for="subscribe-field">Подписать вас на рассылку?</label>
+
+      <input type="submit" value="Отправить">
+    </form>
+  </body>
+</html>
+
+
+

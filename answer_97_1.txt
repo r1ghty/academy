@@ -1,0 +1,11 @@
+Filename: style.css
+Code:
+.brightness img {
+  filter: brightness(2);
+}
+
+.contrast img {
+  filter: contrast(2);
+}
+
+

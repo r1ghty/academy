@@ -1,0 +1,16 @@
+Filename: script.js
+Code:
+let diceNumber = 2;
+let firstCatName = 'Кекс';
+let firstCatPoints = 0;
+let secondCatName = 'Рудольф';
+let secondCatPoints = 0;
+
+let runGame = function (quantity, firstPlayerName, firstPlayerPoints, secondPlayerName, secondPlayerPoints) {
+  console.log(keks.throwDice(quantity, quantity * 6));
+};
+
+runGame(diceNumber, firstCatName, firstCatPoints, secondCatName, secondCatPoints);
+
+
+

@@ -1,0 +1,11 @@
+Filename: svg.
+Code:
+<svg width="300" height="290">
+  <rect fill="khaki" stroke="darkkhaki" width="10" height="70" x="145" y="220"/>
+<circle fill="gold" stroke="darkkhaki" r="100" cx="150" cy="125"/><circle fill="none"stroke-width="20"stroke-dashoffset="-" stroke="tomato" stroke-dasharray="45" r="70" cx="150" cy="125"/>
+<circle fill="none"stroke-width="20"stroke-dasharray="45" stroke-dashoffset="45" stroke="darkorange" r="70" cx="150" cy="125"/>
+<circle fill="none"stroke-width="20"stroke="yellowgreen" stroke-dasharray=""  r="50" cx="150" cy="125"/>
+</svg>
+
+
+

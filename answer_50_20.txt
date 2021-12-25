@@ -1,0 +1,50 @@
+Filename: style.css
+Code:
+html,
+body {
+margin: 0;
+padding: 0;
+}
+
+body {
+width: 430px;
+min-height: 280px;
+padding: 10px;
+font-family: “Arial”, sans-serif;
+font-size: 14px;
+line-height: 1.4;
+background: #ecf0f1;
+}
+
+.main-menu{
+margin:5px;
+padding:0;
+}
+
+.main-menu li{
+display: inline-block;
+background-color:#2980b9;
+margin:-5px;
+border-left:2px solid #2c3e50;
+padding:10px 15px;
+}
+
+.main-menu a{
+display:block;
+color:#ffffff;
+text-decoration:none;
+padding-right: 5px;
+}
+
+.main-menu .active {
+background-color:#1abc9c;
+}
+
+.main-menu li:last-child{
+
+padding-right: 37px;
+
+}
+
+
+

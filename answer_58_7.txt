@@ -1,0 +1,11 @@
+Filename: style.css
+Code:
+.cat-in-box::before {
+    display: block;
+}
+
+.cat-in-box[title^="Друг"]::before {
+    display: none;
+}
+
+

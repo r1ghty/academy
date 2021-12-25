@@ -1,0 +1,96 @@
+Filename: style.css
+Code:
+body {
+  margin: 0;
+  padding: 0;
+  width: 570px;
+  background-color: #f5f5f5;
+  color: #333333;
+}
+
+main {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+}
+
+/*1. Делаем первый белый слой*/
+.shield { 
+  position: relative;
+  top: 5%;
+  margin: 0 auto;
+  width: 90%;
+  height: 90%;
+  background-color: #ffffff;
+  box-shadow: 0 2px 3px #cccccc;
+}
+
+/*2. Создаём 2 псевдоэллемента для следующих 2-х слоёв и центруем*/
+.shield::before,
+.shield::after { 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  content: "";
+  transform: translate(-50%, -50%);
+}
+
+/*3. Создаём синий слой, но меньше, поверх белого*/
+.shield::before { 
+  width: 75%;
+  height: 75%;
+  background-color: #0039a6;
+}
+
+/*4. Создаём расный ещё меньше поверх всех*/
+.shield::after { 
+  width: 50%;
+  height: 50%;
+  background-color: #d52b1e;
+}
+
+/*5. Делаем все эллементы круглыми*/
+.shield,
+.shield::before,
+.shield::after { 
+  border-radius: 50%;
+}
+
+/*6. Позиционируем блок, в которым будет логотип. Background и height потом удалим: они для наглядности*/
+.shield-logo {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  z-index: 10;
+  width: 82px;
+  height: 41px;
+  transform: translate(-41px, -20px);
+  
+}
+
+/*7. Задаём стили 2 псевдоэллементов. Они сейчас наложены друг на друга*/
+.shield-logo::before,
+.shield-logo::after  {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border: 10px solid #ffffff;
+  border-radius: 50% 50% 0;
+  content: "";
+  transform: rotate(-45deg);
+}
+
+/*8. Отражаем второй псевдоэллемент в противоположную сторону*/
+.shield-logo::after {
+  right: 0;
+  left: auto;
+  border-radius: 50% 50% 50% 0;
+  transform: rotate(45deg);
+}
+
+
+

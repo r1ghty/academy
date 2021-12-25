@@ -1,0 +1,16 @@
+Filename: style.css
+Code:
+table {
+  background: rgba(255, 255, 255, 0.95);
+}
+
+tr:hover {
+  background-color: #fcf8e3;
+}
+
+strong:hover {
+  color: #0088cc;
+}
+
+
+

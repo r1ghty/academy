@@ -1,0 +1,10 @@
+Filename: style.css
+Code:
+input:read-only {
+  background-color: #ecf0f1;
+  color: #bdc3c7;
+}
+
+
+
+

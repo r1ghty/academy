@@ -1,0 +1,26 @@
+Filename: script.js
+Code:
+// Контейнер для карточек
+var pool = document.querySelector('.pool');
+
+// Получаем шаблон карточки
+var template = document.querySelector('#element-template').content;
+var element = template.querySelector('div');
+
+// Добавляем текстовое содержимое в span
+element.children[0].textContent = 86;
+
+// Добавляет элемент в конец блока pool
+pool.appendChild(element);
+
+// Раскомментируйте блок ниже
+
+var newElement = document.createElement('div');
+newElement.classList.add('el');
+newElement.classList.add('el--green');
+
+pool.appendChild(newElement);
+pool.appendChild(element);
+
+
+

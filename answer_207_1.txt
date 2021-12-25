@@ -1,0 +1,5 @@
+Filename: script.js
+Code:
+3 + 2.5
+
+

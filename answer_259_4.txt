@@ -1,0 +1,15 @@
+Filename: style.css
+Code:
+svg {
+background-color: #ffffff;
+border: 1px solid #dddddd;
+width: 400;
+height: 300;
+}
+
+#fish {
+transform: scale(2);
+}
+
+
+

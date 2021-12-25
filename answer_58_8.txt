@@ -1,0 +1,8 @@
+Filename: style.css
+Code:
+img[src$="jpg"] {
+  border: 5px solid #f6b267;
+  box-shadow: 0 0 0 3px #b77d3e;
+}
+
+

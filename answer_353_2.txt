@@ -1,0 +1,12 @@
+Filename: read-mode.js
+Code:
+let longread = document.querySelector('.longread');
+let colorSetting = document.querySelector('.color-setting');
+
+colorSetting.onchange = function() {
+  longread.style.color = colorSetting.value;
+}
+  
+
+
+

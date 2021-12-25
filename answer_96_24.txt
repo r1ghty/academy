@@ -1,0 +1,10 @@
+Filename: style.css
+Code:
+.menu {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+
+
+

@@ -1,0 +1,128 @@
+Filename: style.css
+Code:
+body {
+    width: 550px;
+}
+form {
+    margin: 0 auto;
+    padding: 20px;
+    width: 400px; 
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #ccc;
+}
+fieldset {
+    padding: 10px;
+    border: 1px solid #34495e;
+    border-radius: 5px;
+}
+fieldset legend{
+    color: #34495e;
+}
+.half-width {
+    width: 50%;
+    display: inline-block;
+    margin-right: -4px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+input:not([type="text"]) {
+    display: none;
+}
+label:not(:first-of-type) {
+    color: #7f8c8d;
+    vertical-align: middle;
+}
+label:not(:first-of-type):before {
+    content: "";
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    margin-right: 8px;
+    vertical-align: middle;
+    border: 3px solid #fff;
+    box-shadow: 0 0 0 3px #bdc3c7;
+}
+input[type="radio"] + label:before {
+    border-radius: 50%;
+}
+input:checked + label:before {
+    background: #1abc9c;
+    box-shadow: 0 0 0 3px #1abc9c;
+}
+input:checked + label {
+    color: #1abc9c;
+}
+input[id$="-3"] + label:before {
+    box-shadow: 0 0 0 3px #ecf0f1;
+}
+input[id$="-3"] + label {
+    color: #ecf0f1;
+}
+/*текстовые поля начало*/
+input[type="text"] {
+    margin-bottom: 10px;
+    padding: 2px 5px;
+    width: 95%;
+    height: 24px;
+    color: #000;
+    border: 2px solid #bdc3c7;
+    border-radius: 5px;
+    vertical-align: middle;
+    font-family: "Roboto";
+}
+input:required {
+    border-color: #e74c3c;
+}
+input:disabled {
+    border-color: #ecf0f1;
+    color: #bdc3c7;
+    background: #f5f5f5;
+}
+input:invalid {
+    border-color: #e74c3c;
+    color: #c0392b;
+    background: #F2A097;
+}
+/*
+<!DOCTYPE html>
+<body>
+        <header class="page-header">Форма личных данных</header>
+        <main>
+            <form action="/echo" method="post">
+                <fieldset>
+                    <legend>Примеры полей</legend>
+                    <div class="half-width">
+                        <label>Радио-переключатели</label>
+    			        <input id="radio-1" name="radio" type="radio" checked>
+    			        <label for="radio-1">Активный</label>
+    			        <input id="radio-2" name="radio" type="radio">
+    			        <label for="radio-2">Неактивный</label>
+    			        <input id="radio-3" name="radio" type="radio" disabled>
+    			        <label for="radio-3">Заблокированный</label>
+    			    </div>
+    			    <div class="half-width">
+                        <label>Чекбоксы</label>
+    			        <input id="checkbox-1" type="checkbox" checked>
+    			        <label for="checkbox-1">Активный</label>
+    			        <input id="checkbox-2" type="checkbox">
+    			        <label for="checkbox-2">Неактивный</label>
+    			        <input id="checkbox-3" type="checkbox" disabled>
+    			        <label for="checkbox-3">Заблокированный</label>
+    			    </div>
+                    <label>Текстовые поля</label>
+    			    <input type="text" value="Обычное">
+    			    <input type="text" value="Обязательное" required>
+    			    <input type="text" value="Заблокированное" disabled>
+    			    <input type="text" value="Неверные данные" pattern="[0-9]{8}">
+        		</fieldset>
+		    </form>
+        </main>
+        <footer class="page-footer"></footer>
+</body>
+*/
+
+

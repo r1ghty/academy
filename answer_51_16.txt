@@ -1,0 +1,20 @@
+Filename: index.html
+Code:
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Теневое искусство – 3</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="logo">
+      <div class="c1 circle"></div>
+      <div class="c2 circle"></div>
+      <div class="c3 circle"></div>
+      <div class="c4 circle"></div>
+    </div>
+  </body>
+</html>
+
+

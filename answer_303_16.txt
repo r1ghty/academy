@@ -1,0 +1,20 @@
+Filename: script.js
+Code:
+// Контейнер для карточек
+var pool = document.querySelector('.pool');
+
+// Получаем шаблон карточки
+var template = document.querySelector('#element-template').content;
+var element = template.querySelector('div');
+
+// Клонируем элемент
+var clonedElement = element.cloneNode(true);
+
+// Добавляем число в span
+clonedElement.children[0].textContent = 3;
+
+console.log(clonedElement);
+pool.appendChild(clonedElement);
+
+
+

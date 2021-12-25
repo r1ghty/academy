@@ -1,0 +1,14 @@
+Filename: style.css
+Code:
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  order: 1;
+}
+
+
+

@@ -1,0 +1,25 @@
+Filename: index.html
+Code:
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Теги article и section, разделы страницы</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="page-header">
+      Хедер
+    </header>
+    <main>
+      <article class="about-me">Обо мне</article>
+      <section class="posts">Последние посты</section>
+    </main>
+    <footer class="page-footer">
+      Футер
+    </footer>
+  </body>
+</html>
+
+
+

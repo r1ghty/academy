@@ -1,0 +1,11 @@
+Filename: less.
+Code:
+@red: #ff4136;
+@number: 2;
+
+.monster-@{number} {
+  background-color: @red;
+}
+
+
+

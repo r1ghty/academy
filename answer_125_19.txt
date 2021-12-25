@@ -1,0 +1,16 @@
+Filename: less.
+Code:
+@red: #ff4136;
+
+.generate-colors(@n) when (@n > 0) {
+  .monster-@{n} {
+    background-color: @red;
+  }
+  
+  .generate-colors(@n - 1);
+}
+
+.generate-colors(3);
+
+
+

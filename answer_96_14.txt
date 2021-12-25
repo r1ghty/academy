@@ -1,0 +1,13 @@
+Filename: style.css
+Code:
+.room {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.rug {
+  width: 180px;
+}
+
+
+

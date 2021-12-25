@@ -1,0 +1,101 @@
+Filename: style.css
+Code:
+.square1 {
+    width: 50px;
+    height: 50px;
+    margin: 100px auto;
+    background-color: #aaaaaa;
+    border:100px solid #fff;
+    border-left-color:#0074d9;
+    border-right-color:#2ecc40;
+    border-top-color: #ff4136;
+    border-bottom-color:#ffdc00;
+}
+.square2 {
+    width: 0px;
+    height: 0px;
+    margin: 100px auto;
+    background-color: #aaaaaa;
+    border:100px solid #fff;
+    border-left-color:#0074d9;
+    border-right-color:#2ecc40;
+    border-top-color: #ff4136;
+    border-bottom-color:#ffdc00;
+}
+
+[class^="arrow"] {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin: 30px;
+}
+
+.arrow-bottom {
+    border: 100px solid transparent;
+    border-top: 100px solid #0074d9;
+    border-bottom:0 solid #ffffff;
+    
+}
+
+.arrow-left {
+    border: 100px solid transparent;
+     border-right: 100px solid #0074d9;
+    border-left:0 solid #ffffff;
+}
+
+.arrow-top-right {
+    border: 100px solid #ffffff;
+    border-top:100px solid #0074d9;
+    border-bottom:0;
+    border-right:0;
+    border-left:100px solid transparent;
+}
+
+.arrow-bottom-left {
+     border-bottom:100px solid #0074d9;
+    border-top:0;
+    border-left:0;
+    border-right:100px solid transparent;
+}
+.arrow-right-long {
+    position: relative;
+    width: 200px;
+    height: 30px;
+    margin: 150px auto;
+    background: #0074d9;
+}
+
+.arrow-right-long::after {
+    content: "";
+    position: absolute;
+    top:-25px;
+    right:-30px;
+    border-right:0;
+    border-left:40px solid #0074d9;
+    border-top:40px solid transparent;
+    border-bottom:40px solid transparent;
+}
+.arrow-round {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 100px auto;
+    border: 50px solid #0074d9;
+    border-radius: 50%;
+    border-right-color: transparent;
+}
+
+.arrow-round::after {
+    content: "";
+    position: absolute;
+    border:100px solid #fff;
+    border-bottom: 100px solid #0074d9;
+    top:-45px;
+    left:130px;
+    border-right:0;
+    border-top:0;
+    border-left:100px solid transparent;
+}
+
+
+

@@ -1,0 +1,13 @@
+Filename: script.js
+Code:
+let showGreeting = function (name, age) {
+  console.log('Привет! Меня зовут ' + name + '. Мне ' + age + ' лет.');
+};
+
+showGreeting();
+showGreeting(5);
+showGreeting(5, 'Кекс');
+showGreeting('Кекс', 5);
+
+
+

@@ -1,0 +1,14 @@
+Filename: style.css
+Code:
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.arrow-small{
+  animation-name: rotate;
+  animation-duration: 1s;
+}
+
+

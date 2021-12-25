@@ -1,0 +1,20 @@
+Filename: less.
+Code:
+.set-color(@color) {
+  color: @color;
+}
+
+.monster-happy {
+  background-color: #00aef9;
+}
+
+.note {
+  .set-color(white);
+}
+
+.set-color(@color) when (lightness(@color) >= 50%) {
+  background-color: black;
+}
+
+
+
