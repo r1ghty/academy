@@ -1,0 +1,33 @@
+<html lang="ru">
+    <head>
+
+
+    </head>
+    <body>
+        <h1>Academy DB</h1>
+        <p>Paste the link here</p>
+        <input type="text" id="link">
+        <button id="getButton">Get answer</button>
+        <pre id="answer"></pre>
+
+        <script>
+            var getButton = document.getElementById('getButton');
+
+            getButton.onclick = function() {
+                var body = document.getElementById('body');
+                var link = document.getElementById('link').value;
+                var link_split = link.split('/');
+                var answer_link = 'https://r1ghty.github.io/academy/answer_' + link_split[4] + '_' + link_split[6] + '.txt';
+                var answerContainer = document.getElementById('answer');
+
+                fetch(answer_link)
+                .then((response) => {
+                    return response.text();
+                })
+                .then((text) => {
+                    answerContainer.textContent = text;
+                } );
+            }
+        </script>
+    </body>
+</html>
