@@ -1,3 +1,47 @@
+Filename: components/products_list.php
+Code:
+<section class="catalog">
+  <div class="container">
+    <h1 class="catalog-title">Каталог товаров</h1>
+    <?
+    // Я устал
+    //⠄⠄⠄⠄⠄⠄⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⡀⠄⠄⠄⠄⠄⠄
+    //⠄⠄⠄⠄⠄⣰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡀⠄⠄⠄⠄⠄
+    //⠄⠄⠄⠄⢀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣆⠄⠄⠄⠄
+    //⠄⠄⠄⠄⢸⣿⣿⣿⣿⣿⣿⡿⠛⠃⢈⣁⡀⠈⠄⠄⠄⣙⡉⠙⠿⣿⡄⠄⠄⠄
+    //⠄⠄⠄⠄⢻⣿⣿⣿⣿⠟⠉⠄⠈⠠⠄⠄⠄⠄⠄⠄⢠⠄⢀⡁⠄⣿⠃⠄⠄⠄
+    //⠄⠄⠄⠄⢸⣿⣿⣿⠃⠄⠄⠠⠂⢖⣶⣶⡢⠄⠄⠄⠄⣤⣤⣤⠁⡎⠄⠄⡀⠄
+    //⠄⠄⠄⠄⠘⣿⣿⠃⠄⢀⠄⠄⠄⠐⠒⠾⠋⠄⠄⠄⠄⠙⠿⠣⠄⢱⠄⠄⠄⠄
+    //⠄⠄⠄⠄⠄⠈⠻⠄⠄⢸⠄⠄⠄⠄⠄⠄⢀⡀⠄⠄⠈⢢⠄⠄⢀⢸⠄⠄⠁⠄
+    //⠄⠄⠄⠄⠄⠄⠄⡇⠄⠄⢆⠄⠁⠄⠄⠠⠘⠤⠐⠄⠠⢆⠄⠄⢠⠃⢠⠄⠄⠄
+    //⠄⠄⠄⠄⠄⠄⠄⡇⠄⠄⡎⠳⣄⠄⠄⠁⠤⠤⠄⠄⢀⣄⠄⢰⠁⠄⠄⠄⠄⠄
+    //⠄⠄⣠⣴⣶⣿⣿⠁⠄⠄⠁⠄⠈⠑⢄⠄⠄⠄⠄⠄⠄⠈⡠⠋⢀⠄⠄⠄⠄⠄
+    //⣠⣾⣿⣿⣿⣿⠃⠄⠄⠤⠄⠄⠄⠄⠄⠑⠒⠤⠤⣤⣴⣾⣷⣤⡀⠄⠄⠄⠄⠄
+    //⣿⣿⣿⣿⣿⣿⣿⣿⣾⣄⠄⠄⠄⠄⠄⠄⠈⠂⠄⣙⣿⣿⣿⣿⣿⣦⣄⣀⡀⠄
+    //⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣾⣷⣶⣶⣶⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠄⠄
+    ?>
+
+    <ul class="products-list">
+      <li>
+        <a class="product-card" href="#">
+          <h3><?= $item['title'] ?></h3>
+          <img src="<?= $item['img_url'] ?>" width="156" height="120" alt="<?= $item['title'] ?>">
+          <div class="product-options">
+          <span class="price"><?= $item['price'] ?></span>
+            <ul class="colors-list">
+              <?foreach($item['colors'] as $color): ?>
+              <li class="color-<?= $color ?>"></li>
+              <?php endforeach; ?>
+            </ul>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+
+
 Filename: catalog.php
 Code:
 <?php

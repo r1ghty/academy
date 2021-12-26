@@ -1,3 +1,23 @@
+Filename: delivery.php
+Code:
+<?php
+require('products_db.php');
+
+$order = [2, 7, 15, 16];
+
+function get_final_price($id) {
+  $price = get_product_price($id);
+  $discount = get_product_discount($id);
+
+  return $price - $discount;
+}
+
+require('components/header.php');
+require('components/delivery_info.php');
+require('components/footer.php');
+
+
+
 Filename: components/delivery_info.php
 Code:
 <section class="order">

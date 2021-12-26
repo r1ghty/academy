@@ -1,3 +1,29 @@
+Filename: index.html
+Code:
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Испытание: карточка курса</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="fonts">
+    <h1>Курс «Фоны»</h1>
+    <p>
+    Учимся использовать фоновые цвета и изображения, разбираемся с форматами, знакомимся с приёмами создания декоративных эффектов.
+    </p>
+    <div class="share">
+      <a href="#fb" class="social social-fb"></a>
+      <a href="#tw" class="social social-tw"></a>
+      <a href="#g" class="social social-g"></a>
+    </div>
+    </div>
+  </body>
+</html>
+
+
+
 Filename: style.css
 Code:
 html,

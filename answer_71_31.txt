@@ -1,3 +1,26 @@
+Filename: index.html
+Code:
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Круговое меню, финал</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="circle-menu">
+      <div class="center"></div>
+      <ul>
+        <li><a href="#">monitor</a></li>
+        <li><a href="#">aperture</a></li>
+        <li><a href="#">aperture</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>
+
+
+
 Filename: style.css
 Code:
 body {

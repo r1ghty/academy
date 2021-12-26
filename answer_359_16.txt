@@ -1,0 +1,25 @@
+Filename: style.css
+Code:
+body {
+  margin: 0;
+}
+
+.page-main {
+  width: 550px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bio {
+  width: 270px;
+  padding: 10px;
+}
+
+.photo {
+  width: 200px;
+  padding: 10px;
+}
+
+
+

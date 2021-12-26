@@ -1,0 +1,15 @@
+Filename: style.css
+Code:
+.king + li {
+  background-color: #ff3300;
+}
+
+.heart.jack ~ .ace {
+  background-color: #339933;
+}
+
+.club.king ~ .heart.jack {
+  background-color: #0099ff;
+}
+
+

@@ -1,0 +1,14 @@
+Filename: script.js
+Code:
+var food = 'пирожки';
+
+var eatDinner = function () {
+  console.log('Поел ' + food);
+};
+
+eatDinner();
+food = 'винегрет';
+eatDinner();
+
+
+

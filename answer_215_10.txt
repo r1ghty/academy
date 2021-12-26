@@ -1,0 +1,13 @@
+Filename: script.js
+Code:
+var calculateSalary = function (Zp) {
+
+var lapaZp = Zp - Zp * 0.35;
+
+if (Zp >= 100000) { lapaZp = Zp - Zp * 0.45 };
+
+return lapaZp;
+
+};
+
+

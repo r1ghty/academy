@@ -1,0 +1,11 @@
+Filename: script.js
+Code:
+let timeInMinutes = 180;
+let jumps;
+jumps = timeInMinutes / 10 * 3;
+
+let message;
+message = 'За ' + timeInMinutes + ' минут в соцсетях полагается ' + jumps + ' прыжков.'
+
+
+

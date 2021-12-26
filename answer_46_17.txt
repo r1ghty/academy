@@ -1,0 +1,23 @@
+Filename: index.html
+Code:
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Поле для загрузки файлов</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Профиль</h1>
+
+    <form action="https://echo.htmlacademy.ru/courses" method="post" enctype="multipart/form-data">
+      <p>Выберите изображение для своего аватара:</p>
+      <input type="file" name="avatar">
+
+      <input type="submit" value="Загрузить">
+    </form>
+  </body>
+</html>
+
+
+

@@ -1,3 +1,20 @@
+Filename: index.html
+Code:
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Длительность перехода, transition-duration</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="material.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="theory-theme">
+    <button class="btn" type="button">&#58883;</button>
+  </body>
+</html>
+
+
+
 Filename: style.css
 Code:
 .btn {

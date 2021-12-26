@@ -1,0 +1,18 @@
+Filename: style.css
+Code:
+.robot {
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    animation-name: move;
+}
+@keyframes move{
+    to {
+        left: 400px;
+    }
+}
+.robot-paused{
+    animation-play-state: paused;
+}
+
+

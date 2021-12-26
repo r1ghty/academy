@@ -1,0 +1,22 @@
+Filename: style.css
+Code:
+.card {
+  grid-template-areas: "title title price";
+  width: 540px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 260px 165px 75px;
+  gap: 20px;
+}
+
+.title {
+  grid-area: title;
+}
+
+.price {
+ grid-area: price; 
+}
+
+
+
+

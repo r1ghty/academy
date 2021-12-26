@@ -1,0 +1,12 @@
+Filename: script.js
+Code:
+var food = 'борщ';
+
+var eatDinner = function () {
+  console.log('Поел ' + soup);
+};
+
+eatDinner();
+
+
+

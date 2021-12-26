@@ -1,3 +1,19 @@
+Filename: index.html
+Code:
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Логотип: иконочный шрифт</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <a href="#"><span>A</span>Warmphoto</a>
+    <h1>Тёплые ламповые фотографии</h1>
+  </body>
+</html>
+
+
 Filename: style.css
 Code:
 @font-face {

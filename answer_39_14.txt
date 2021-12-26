@@ -1,0 +1,71 @@
+Filename: index.html
+Code:
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Объединяем ячейки в столбцах</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <table>
+      <caption>Распределение браузеров</caption>
+      <tr>
+        <th rowspan="2">Браузер</th>
+        <th colspan="2">Посещения</th>
+      </tr>
+      <tr>
+        <th>Количество</th>
+        <th>В процентах</th>
+      </tr>
+      <tr>
+        <td>Mozilla Firefox</td>
+        <td>163</td>
+        <td>59%</td>
+      </tr>
+      <tr>
+        <td>Google Chrome</td>
+        <td>78</td>
+        <td>28%</td>
+      </tr>
+      <tr>
+        <td>Safari</td>
+        <td>35</td>
+        <td>13%</td>
+      </tr>
+    </table>
+  </body>
+</html>
+
+
+
+Filename: style.css
+Code:
+table {
+  border-collapse: collapse;
+  border-spacing: 4px;
+  border: 2px solid black;
+}
+
+td {
+  padding: 5px;
+  padding-right: 30px;
+  border: 1px solid lightgray;
+}
+
+th {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+caption {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.pink {
+  background-color: pink;
+}
+
+
+

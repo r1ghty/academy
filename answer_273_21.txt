@@ -1,0 +1,18 @@
+Filename: script.js
+Code:
+var food = 'салат';
+
+var collectContainer = function () {
+  return function () {
+    console.log('Поел ' + food);
+  };
+};
+
+var schoolkidFirst = collectContainer('макароны');
+var schoolkidSecond = collectContainer('пельмешки');
+food = 'сельдерей';
+schoolkidFirst();
+schoolkidSecond();
+
+
+

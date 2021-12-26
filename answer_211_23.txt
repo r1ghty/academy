@@ -1,0 +1,17 @@
+Filename: script.js
+Code:
+let score = 0;
+let total = 0;
+let victoryPoints = 100;
+
+while (total < victoryPoints) {
+  score = keks.getScore();
+  total += score;
+  
+  console.log(score);
+}
+
+console.log(total);
+
+
+

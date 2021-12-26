@@ -1,0 +1,31 @@
+Filename: style.css
+Code:
+body {
+  width: 450px; /* Удаляем строку */
+  margin: 15px;
+}
+
+.cards-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 15px;
+  margin: 0;
+  padding: 20px;
+  grid-auto-flow: dense;
+ }
+
+.card {
+  padding: 15px;
+}
+
+.wide {
+ grid-column: span 2;
+}
+
+.huge {
+  grid-row: span 2;
+  grid-column: span 2;
+}
+
+
+

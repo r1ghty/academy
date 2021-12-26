@@ -1,0 +1,18 @@
+Filename: script.js
+Code:
+let calculateMiles = function (distance, isBusinessClass) {
+  let percent = 0.18;
+  if (isBusinessClass) {
+    percent += 0.04;
+  }
+  return distance * percent;
+};
+
+let milesEconom = calculateMiles(3000, false);
+let milesBusiness = calculateMiles(3000, true);
+
+console.log('Эконом-классом Кексофлота накопишь ' + milesEconom + ' миль');
+console.log('Бизнес-классом Кексофлота накопишь ' + milesBusiness + ' миль');
+
+
+

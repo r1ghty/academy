@@ -1,0 +1,19 @@
+Filename: style.css
+Code:
+.robot {
+    animation-name: move;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+@keyframes move {
+    to {
+        left: 400px;
+    }
+}
+.constructor {
+    animation-timing-function:ease-in-out
+}
+
+

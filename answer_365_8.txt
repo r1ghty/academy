@@ -1,0 +1,35 @@
+Filename: style.css
+Code:
+* {
+ margin: 0;
+ padding: 0;
+}
+
+.movie {
+ display: grid; 
+ grid-template-columns: 1fr 235px;
+ margin-bottom: 10px;
+}
+
+.movie-title {
+ align-self: center; 
+}
+
+.tags-list {
+  align-self: center;
+  padding: 15px;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag {
+ margin: 5px; 
+}
+
+.tag-link { 
+  padding: 5px 10px;
+  display: block;
+}
+
+

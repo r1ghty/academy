@@ -1,0 +1,13 @@
+Filename: script.js
+Code:
+var eatDinner = function (drink) {
+  var food = 'котлеты';
+  console.log('Поел ' + food);
+  console.log('Выпил ' + drink);
+};
+
+eatDinner('чай');
+console.log('Выпил ' + drink);
+
+
+

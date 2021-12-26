@@ -1,0 +1,24 @@
+Filename: script.js
+Code:
+let calculateMiles = function (distance, isBusinessClass) {
+  let percent = 0.18;
+  if (isBusinessClass) {
+    percent += 0.04;
+  }
+  if (distance > 3500) {
+    percent += 0.15;
+  }
+  return distance * percent;
+};
+
+let calculateFlights = function (distance, isBusinessClass, milesTarget) {
+  let miles = calculateMiles(distance, isBusinessClass);
+  console.log('Мили за перелёт: ' + miles);
+  let flights = Math.ceil(milesTarget / miles);
+  console.log('Количество полётов: ' + flights);
+};
+
+calculateFlights(3118, true, 15000);
+
+
+

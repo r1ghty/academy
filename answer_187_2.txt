@@ -1,3 +1,17 @@
+Filename: svg.
+Code:
+<svg width="300" height="150">
+
+  <circle r="60" cx="75" cy="50%" fill="#ff7700" fill-opacity="0.5"></circle>
+
+  <circle r="60" cx="150" cy="50%" fill="hsla(50, 100%, 50%, 0.5)"></circle>
+
+  <circle class="shape-opacity" r="60" cx="225" cy="50%"></circle>
+
+</svg>
+
+
+
 Filename: style.css
 Code:
 svg {

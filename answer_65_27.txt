@@ -1,3 +1,74 @@
+Filename: index.html
+Code:
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+
+<title>Испытание: строим сетку</title>
+
+<meta charset="utf-8">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="header">
+
+<div class="helper">
+
+<div class="hcont">Header</div>
+
+</div>
+
+</div>
+
+<div class="menu">
+
+<div class="mcont">Menu</div>
+
+</div>
+
+<div class="promo">
+
+<div class="helper center">
+
+<div class="pcont1">Promo 1</div>
+
+<div class="pcont2">Promo 2</div>
+
+</div>
+
+</div>
+
+<div class="storon">
+
+<div class="center">
+
+<div class="scont">Left</div>
+
+<div class="scont">Main</div>
+
+<div class="scont">Right</div>
+
+</div>
+
+</div>
+
+<div class="foot">
+
+<div class="fcont">Footer</div>
+
+</div>
+
+</body>
+
+</html>
+
+
 Filename: style.css
 Code:
 html,

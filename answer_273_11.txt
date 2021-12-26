@@ -1,0 +1,61 @@
+Filename: script.js
+Code:
+let show = document.querySelector('.card__button');
+
+let close_w = document.querySelector('.button-hide');
+
+let popup = document.querySelector('.popup');
+
+let popup_cont = document.querySelector('.popup_content');
+
+function toggleMenu() {
+
+popup.classList.toggle('popup--open');
+
+}
+
+show.addEventListener('click', function (e) {
+
+e.preventDefault();
+
+toggleMenu();
+
+})
+
+close_w.addEventListener('click', function () {
+
+toggleMenu();
+
+})
+
+document.addEventListener('click', function (e) {
+
+let target = e.target;
+
+let window_p = target == popup || popup.contains(target);
+
+let window_p_active = popup.classList.contains('popup--open')
+
+if (target.closest('.popup__content')) {
+
+e.preventDefault();
+
+} else if (window_p && window_p_active) {
+
+toggleMenu();
+
+}
+
+})
+
+document.addEventListener('keydown', function (e) {
+
+if (e.keyCode == 27) {
+
+popup.classList.remove('popup--open');
+
+}
+
+})
+
+

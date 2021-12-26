@@ -1,0 +1,22 @@
+Filename: style.css
+Code:
+body {
+  width: 645px;
+  margin: 15px;
+}
+
+.cards-list {
+  display: grid;
+  grid-template-columns:
+  repeat(3  /* Меняем на 3 */, 140px /* Меняем на 140px */);
+  gap: 15px;
+  margin: 0;
+  padding: 20px;
+}
+
+.card {
+  padding: 15px;
+}
+
+
+

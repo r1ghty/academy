@@ -1,0 +1,20 @@
+Filename: script.js
+Code:
+let buttons = document.querySelectorAll('.review');
+let submit = document.querySelector('.submit-button');
+let error = document.querySelector('.error');
+
+for(let button of buttons) {
+  button.onchange = function() {
+    let review = button.dataset.evaluation;
+    submit.disabled = review === "bad";
+    if(review === "bad") {
+      error.classList.add("shown");
+    } else {
+      error.classList.remove("shown");
+    }
+  }
+}
+
+
+

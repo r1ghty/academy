@@ -1,3 +1,25 @@
+Filename: index.html
+Code:
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Испытание: вертикальное меню</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+     <ul class="main-menu">
+         <li><a href="#courses">Курсы</a></li>
+         <li class="active"><a href="#demo">Демонстрации</a></li>
+         <li><a href="#users">Участники</a></li>
+         <li><a href="#achievement">Достижения</a></li>
+         <li><a href="#profile">Профиль</a></li>
+     </ul>
+</body>
+</html>
+
+
+
 Filename: style.css
 Code:
 html,

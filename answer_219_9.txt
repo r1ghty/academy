@@ -1,0 +1,81 @@
+Filename: script.js
+Code:
+var assortmentData = [
+
+{
+
+inStock: true,
+
+isHit: false
+
+},
+
+{
+
+inStock: false,
+
+isHit: false
+
+},
+
+{
+
+inStock: true,
+
+isHit: true
+
+},
+
+{
+
+inStock: true,
+
+isHit: false
+
+},
+
+{
+
+inStock: false,
+
+isHit: false
+
+}
+
+];
+
+var updateCards = function (cards) {
+
+var items = document.querySelectorAll('.goods .good'); // коллекция из html-кода
+
+for (var i = 0; i < items.length; i++) {
+
+var item = items[i]; // текущий элемент коллекции
+
+var good = cards[i]; // текущий элемент массива объектов
+
+var itemAvailability = 'good--available';
+
+var itemHit = 'good--hit';
+
+if (!good.inStock) {
+
+itemAvailability = 'good--unavailable';
+
+}
+
+item.classList.add(itemAvailability);
+
+if (good.isHit) {
+
+item.classList.add(itemHit);
+
+}
+
+}
+
+};
+
+updateCards(assortmentData);
+
+

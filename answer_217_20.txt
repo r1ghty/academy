@@ -1,0 +1,25 @@
+Filename: script.js
+Code:
+var getStatistics = function (players) {
+
+var sumGoals = 0;
+
+for (var i = 0; i < players.length; i++) {
+
+sumGoals += players[i].goals;
+
+for (var j = 0; j < players.length; j++) {
+
+players[j].coefficient = players[j].goals * 2 + players[j].passes;
+
+players[j].percent = Math.round(players[j].goals / sumGoals * 100);
+
+}
+
+}
+
+return players;
+
+};
+
+

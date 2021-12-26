@@ -1,0 +1,17 @@
+Filename: style.css
+Code:
+ul:empty {
+  height: 70px;
+  border: 2px dashed #55bb99;
+}
+
+li:not(:empty) {
+  width: 60px;
+  height: 90px;
+}
+
+li:not(:empty) span {
+  display: block;
+}
+
+

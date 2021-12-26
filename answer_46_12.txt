@@ -1,0 +1,47 @@
+Filename: index.html
+Code:
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8">
+
+<title>Испытание: форма регистрации</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>Регистрация</h1>
+
+<form action="https://echo.htmlacademy.ru" method="post">
+
+Ваш логин (email):
+
+<br><input type="text">
+
+<br>Пароль:
+
+<br><input type="password">
+
+<br>Информация о себе:
+
+<br><textarea rows="3"></textarea>
+
+<br><input type="checkbox" checked>
+
+Подписаться на рассылку
+
+<br> <input type="submit" value="Зарегистрироваться">
+
+</form>
+
+</body>
+
+</html>
+
+

@@ -1,3 +1,27 @@
+Filename: index.html
+Code:
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Простейшая сетка, шаг 2</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="setting.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">Хедер</div>
+      <div class="content-container clearfix">
+        <div class="sidebar">Сайдбар</div>
+        <div class="content">Контент</div>
+      </div>
+      <div class="footer">Футер</div>
+    </div>
+  </body>
+</html>
+
+
+
 Filename: style.css
 Code:
 .wrapper {

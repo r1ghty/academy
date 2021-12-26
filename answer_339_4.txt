@@ -1,3 +1,22 @@
+Filename: components/product_info.php
+Code:
+<section class="item">
+  <div class="container">
+    <h1 class="item-title"><?= $title ?></h1>
+    <div class="item-img">
+      <img src="<?= $img_url ?>" width="510" height="392" alt="<?= $title ?>">
+    </div>
+    <div class="item-buy">
+      <div class="price">
+        <p class="price-old"><i>Цена </i><?=$price?></p>
+        <p class="price-new"><i>Новая цена </i><?=$price_with_discount?></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
 Filename: product.php
 Code:
 <?php

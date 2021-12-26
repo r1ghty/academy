@@ -1,0 +1,53 @@
+Filename: index.html
+Code:
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Каталог | Девайс</title>
+  <link rel="stylesheet" href="device/setting.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <ul class="products">
+  </ul>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+Filename: script.js
+Code:
+var makeElement = function (tagName, className, text) {
+  var element = document.createElement(tagName);
+  element.classList.add(className);
+  if (text) {
+    element.textContent = text;
+  }
+  return element;
+};
+
+var createCard = function () {
+  var listItem = makeElement('li', 'product');
+
+  var title = makeElement('h2', 'product__title', 'Профессиональная селфи-палка');
+  listItem.appendChild(title);
+
+  var picture = makeElement('img', 'product__image');
+  picture.src = 'device/item-4.jpg';
+  picture.alt = 'Профессиональная селфи-палка';
+  listItem.appendChild(picture);
+
+  var price = makeElement('p', 'product__price', '1000');
+  listItem.appendChild(price);
+
+  return listItem;
+};
+
+var cardList = document.querySelector('.products');
+var cardItem = createCard();
+cardList.appendChild(cardItem);
+
+
+

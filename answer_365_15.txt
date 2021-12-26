@@ -1,0 +1,21 @@
+Filename: style.css
+Code:
+body {
+  width: 640px /* 640px */;
+  margin: 15px;
+}
+
+.cards-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 140px);
+  gap: 15px;
+  margin: 0;
+  padding: 20px;
+ }
+
+.card {
+  padding: 15px;
+}
+
+
+

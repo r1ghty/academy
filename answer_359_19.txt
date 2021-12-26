@@ -1,0 +1,48 @@
+Filename: style.css
+Code:
+body {
+  margin: 0;
+}
+
+.page-main {
+  display: flex;
+  justify-content: space-between;
+  width: 550px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.bio {
+  width: 270px;
+  padding: 10px;
+}
+
+.photo {
+  width: 200px;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  width: 550px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/* С первым пунктом глюк в проверке */
+
+.contacts {
+  width: 160px;
+  margin-right: auto;
+}
+
+.copyright {
+  width: 170px;  
+}
+
+.logo {
+  width: 70px;
+  margin-left: 20px;
+}
+
+

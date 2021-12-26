@@ -1,0 +1,21 @@
+Filename: tooltip.js
+Code:
+let tooltip = document.querySelector('.tooltip');
+let tooltipButton = document.querySelector('.tooltip-button');
+let closeButton = document.querySelector('.close-button');
+let tooltipButtons = document.querySelectorAll('.tooltip-button');
+console.log(tooltipButtons[0]);
+console.log(tooltipButtons[1])
+
+
+tooltipButton.onclick = function () {
+  tooltip.classList.add('opened');
+};
+
+closeButton.onclick = function () {
+  tooltip.classList.remove('opened');
+};
+
+
+
+

@@ -1,0 +1,9 @@
+Filename: style.css
+Code:
+.land {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+
+

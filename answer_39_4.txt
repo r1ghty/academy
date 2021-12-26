@@ -1,3 +1,38 @@
+Filename: index.html
+Code:
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Задаём рамки с помощью CSS</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Распределение браузеров</h1>
+
+    <table border="5">
+      <tr>
+        <td>Браузер</td>
+        <td>Посещения</td>
+      </tr>
+      <tr>
+        <td>Mozilla Firefox</td>
+        <td>163</td>
+      </tr>
+      <tr>
+        <td>Google Chrome</td>
+        <td>78</td>
+      </tr>
+      <tr>
+        <td>Safari</td>
+        <td>35</td>
+      </tr>
+    </table>
+  </body>
+</html>
+
+
+
 Filename: style.css
 Code:
 table {

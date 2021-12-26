@@ -1,0 +1,41 @@
+Filename: style.css
+Code:
+* {
+ padding: 0; 
+ margin: 0;
+}
+
+.page-header {
+ display: grid;
+ padding: 30px 20px 70px;
+ grid-template-columns: 1fr 160px;
+}
+
+.title {
+ grid-column: 2;
+ grid-row: 1;
+ grid-column-start: 1;
+}
+
+.quote {
+ grid-column: 1; 
+ grid-row: 1;
+ grid-column-start: 2;
+ grid-template-columns: 160px;
+}
+
+ol {
+ padding: 25px 20px 40px;
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ grid-column-gap: 20px;
+ grid-row-gap: 30px;
+}
+
+footer {
+ padding: 10px 20px 20px; 
+}
+
+
+
+

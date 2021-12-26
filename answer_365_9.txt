@@ -1,0 +1,18 @@
+Filename: style.css
+Code:
+body {
+  margin: 15px;
+  width: 490px;
+}
+
+.cards-list {
+ margin: 0;
+ padding: 20px;
+}
+
+.card {
+ width: 110px;
+ padding: 15px;
+}
+
+

@@ -1,0 +1,17 @@
+Filename: style.css
+Code:
+.card {
+  display: grid;
+  grid-template-columns: 260px 260px;
+  gap: 20px;
+  width: 540px;
+  padding: 20px;
+}
+
+.title {
+ width: 360px; 
+}
+
+
+
+
